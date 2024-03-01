@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 # Workflow / Jobs
-
+permissions: read-all
 jobs:
   build:
     name: Lint
